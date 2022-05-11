@@ -9,7 +9,7 @@ public class Main {
         Ticket kino = new KinoTicket(new Ort("Zürich"), "Titanic", 50, 151);
         //System.out.printf("Filmname %s, Preis: %f", kino.getEventName(), kino.berechneTicketPreis());
 
-        Ticket konzert = new KonzertTicket(new Ort("Bern"), "Lucky Chops", 50, 5);
+        Ticket konzert = new KonzertTicket(new Ort("Bern"), "Lucky Chops", 50, 4);
         System.out.printf("Konzert: %s, Preis: %f", konzert.getEventName(), konzert.berechneTicketPreis());
     }
 }
