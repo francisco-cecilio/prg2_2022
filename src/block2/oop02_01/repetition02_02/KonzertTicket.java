@@ -12,7 +12,7 @@ public class KonzertTicket extends Ticket {
 
     @Override
     public double berechneTicketPreis() {
-        this.setTicketPreis(this.getBasisPreis() * (1/(float)this.getSitzReihe()));
+        this.setTicketPreis(this.getBasisPreis() * (1.0/this.getSitzReihe()));
         return this.getTicketPreis();
     }
 
